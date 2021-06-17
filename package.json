@@ -1,14 +1,14 @@
 {
   "name": "ground-js-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ground.js is a JavaScript boilerplate with Webpack and Babel",
   "main": "index.js",
   "scripts": {
     "serve": "webpack serve --open --mode=development",
     "build": "webpack --mode=production"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "AshRW",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.5",
