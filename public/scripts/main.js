@@ -1,0 +1,1 @@
+(()=>{var __webpack_modules__={352:()=>{eval("document.querySelector('#test').textContent = 'Hello Anurag';\nconsole.log('Anurag');\n\n//# sourceURL=webpack://my-new-boilerplate/./src/index.js?")}},__webpack_exports__={};__webpack_modules__[352]()})();
