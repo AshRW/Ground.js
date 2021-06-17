@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+## Ground.js
+Ground.js is a JavaScript boilerplate with Webpack and Babel
 
-You can use the [editor on GitHub](https://github.com/AshRW/Ground.js/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This boilerplate is a webpack and babel enabled tool to quickly develop and build JavaScript web applications. It includes the babel env preset and polyfill for handling async code too. It has a webpack enabled dev server.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+It's free and uses only open source techs within it.
 
-### Markdown
+## First step
+Please start off by installing the required node modules with the following command
+##### `npm install`
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Run dev server
+The webpack enabled dev server is configured in the package.json file you can run the server by
+##### `npm run serve`
 
-```markdown
-Syntax highlighted code block
+## Build the Project
+To build the project with the babel enabled presets and achieve wide browser compatibility run this code
+##### `npm run build`
 
-# Header 1
-## Header 2
-### Header 3
+## Important things to note
+* Files like html, styles, images, and all other assets which are not user generated js files, go into the public folder of the boilerplate
+* All user generated JavaScript files go into the src folder
+* Webpack.config.js file has to be configured if more than one JavaScript file is provided. Instructions are commented in the config file.
 
-- Bulleted
-- List
+## Etymology
+###### Ground (/ɡraʊnd/) - the solid surface of the earth.
+The seed of your ideas need a ground to be buried into and to germinate from. The utilized ground of course needs service and care but it is the basis of it.
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AshRW/Ground.js/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Ground.js provides you a simple up to date boilerplate for developing your JavaScript Web Application. And it's free. (see licence for more details)
