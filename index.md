@@ -1,4 +1,6 @@
 ## Ground.js
+![Ground.Js logo](./new-logo-200px.png)
+
 Ground.js is a JavaScript boilerplate with Webpack and Babel
 
 This boilerplate is a webpack and babel enabled tool to quickly develop and build JavaScript web applications. It includes the babel env preset and polyfill for handling async code too. It has a webpack enabled dev server.
