@@ -29,3 +29,5 @@ To build the project with the babel enabled presets and achieve wide browser com
 The seed of your ideas need a ground to be buried into and to germinate from. The utilized ground of course needs service and care but it is the basis of it.
 
 Ground.js provides you a simple up to date boilerplate for developing your JavaScript Web Application. And it's free. (see licence for more details)
+
+Project Maintained by Anurag R Wankhede aka AshRW
